@@ -1,11 +1,204 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website HTML</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kdy7hpz.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="right-nav">
+            <a class="symbol" href="#">
+                <img src="images/symbol.png" alt="logo" width="70">
+            </a>
+            <nav>
+                <a class="links" href="#">MENU</a>
+                <a class="links" href="#">ORDER</a>
+                <a class="links" href="#">RESERVATION</a>
+            </nav>
+        </div>
+        <a class="logo" href="#">
+            <img src="images/combine.png" alt="combination logo" width="200">
+        </a>
+        <nav class="left-nav">
+            <a class="links" href="#">GIFT CARDS</a>
+            <a class="links" href="#">LOCATION</a>
+            <a class="links" href="#">ABOUT US</a>
+        </nav>
+        <butto class="mb-btn">
+            <img src="images/icons8-hamburger-50.png" alt="Menu" width="50">
+            </button>
+    </header>
+
+    <!-- Cover Image -->
+    <main>
+        <section class="bg-image">
+            <div class="bg-text">
+                <div class="bg-container">
+                    <h1>HOME OF THE BEST FILIPINO DISHES IN TOWN</h1>
+                    <a class="btn" href="#">VIEW OUR MENU</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Specialties -->
+        <section class="specialties">
+            <h2>OUR SPECIALTIES</h2>
+            <div class="flex-ctn">
+                <div class="meal-detail">
+                    <img src="images/Adobo.png" alt="Adobo" width="165">
+                    <h3>Adobo</h3>
+                    <p>Grilled chicken thigh, fried egg, mushroom, and garlic rice</p>
+                </div>
+                <div class="meal-detail">
+                    <img src="images/Lumpia.png" alt="Lumpia" width="165">
+                    <h3>Lumpia</h3>
+                    <p>Fried pork spring rolls with vegetables, and sweet chili</p>
+                </div>
+                <div class="meal-detail">
+                    <img src="images/HaloHalo.png" alt="Halo-Halo" width="165">
+                    <h3>Halo-Halo</h3>
+                    <p>Shaved ice, coconut milk, ube ice cream and side dishes</p>
+                </div>
+                <div class="meal-detail">
+                    <img src="images/Sisig.png" alt="Sisig" width="165">
+                    <h3>Sisig</h3>
+                    <p>Minced pork, chicken liver, seasoned with onion and chili</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Explore -->
+        <section>
+            <h2>EXPLORE</h2>
+            <div class="menu-ctn">
+                <img class="explore" src="images/Daytime.png" alt="Daytime" width="308">
+                <img class="explore" src="images/Beverage.png" alt="Lumpia" width="308">
+                <img class="explore" src="images/Bakery.png" alt="Halo-Halo" width="308">
+            </div>
+        </section>
+
+        <!-- Reservation -->
+        <section class="padding">
+            <div class="rsvt">
+                <div class="flex-ctn-rs">
+                    <div class="text-align">
+                        <h2 class="align-h2">RESERVATION</h2>
+                        <p>Modern Filipino tasting menu is reservation<br>only Thursday - Sunday evening.<br>
+                        <ul class="rsvt">
+                            <li>Tasting Menu is $275/person.</li>
+                            <li>Optional Beverage Pairing is $175/person.</li>
+                            <li>Optional N/A Beverage Pairing is $95/person.</li>
+                        </ul>
+                        <p>*All prices subject to change.</p>
+                        <div class="btn-center">
+                            <a class="btn-rs" href="#">BOOK A TABLE</a>
+                        </div>
+                    </div>
+
+                    <div class="img1">
+                        <img src="images/reservation.jpg" width="500">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Order Online -->
+        <section class="padding">
+            <div class="rsvt">
+                <div class="flex-ctn-oo">
+                    <div class="img2">
+                        <img src="images/onlineorder.jpg" width="500">
+                    </div>
+
+                    <div class="text-align">
+                        <h2 class="align-h2">ONLINE ORDER</h2>
+                        <ul class="online">
+                            <li>Daytime menu and bakery available for same-day
+                                pickup Wednesday - Sunday, 9am - 3pm.</li>
+                            <li>For large format pastry pre-order, please give us 72 hours notice.
+                                Pickup available Wednesday - Sunday, 9:30am - 2:30pm.</li>
+                        </ul>
+                        <div class="btn-center">
+                            <a class="btn-rs" href="#">ORDER NOW</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards -->
+        <section class="padding">
+            <div class="flex-ctn-aw">
+                <div class="a1">
+                    <h2>PROUD TO SERVE THE HIGHEST QUALITY DISHES</h2>
+                </div>
+                <div class="a2">
+                    <img src="images/michelin.png" alt="Michelin Logo" width="200">
+                </div>
+                <div class="a2">
+                    <img src="images/JBA_WINNER.png" alt="JBA Logo" width="200">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="ft-container">
+            <div class="ft-nav">
+                <h4>OUR RESTAURANT</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press & Events</a></li>
+                </ul>
+            </div>
+
+            <div class="ft-nav">
+                <h4>LEGAL & SUPPORT</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="ft-nav">
+                <h4>DOWNLOAD APP</h4>
+                <ul>
+                    <li><a href="#">Apple Store</a></li>
+                    <li><a href="#">Google Play</a></li>
+                </ul>
+                <h4>SOCIAL MEDIA</h4>
+                <a href="https://www.instagram.com"><img src="images/icons8-instagram-24.png" alt="IG icon"
+                        width="30"></a>
+                <a href="https://www.facebook.com"><img src="images/icons8-facebook-24.png" alt="FB icon"
+                        width="30"></a>
+                <a href="https://www.x.com"><img src="images/icons8-twitterx-24.png" alt="X icon" width="30"></a>
+            </div>
+
+            <div class="ft-nav">
+                <h4>NEWSLETTER</h4>
+                <p>Get great deals,<br>coupons, new<br>items in menu,<br>and more.</p>
+                <a class="btn-news" href="#"><strong>SIGN UP FOR<br>NEWSLETTER</strong></a>
+            </div>
+        </div>
+
+        <div class="ft-p">
+            <p>@ 2024 KASAMA All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
 </html>

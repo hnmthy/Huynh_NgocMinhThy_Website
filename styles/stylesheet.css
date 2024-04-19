@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "avenir";
+    src: url(../font/AVENIR.TTC) format("truetype");
+  }
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "avenir", sans-serif;
+    overflow-x: hidden;
+}
+
+/* Header Navigation */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFA844;
+    padding: 0 12px;
+    font-size: 18px;
+}
+
+.right-nav {
+    display: flex;
+    width: 33.34%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    display: flex;
+    width: 33.34%;
+    justify-content: center;
+}
+
+.left-nav {
+    display: flex;
+    width: 33.34%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Background Image */
+
+.bg-image {
+    background-image: url("../images/Lechon.jpg");
+    min-height: 630px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bg-text {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    text-align: center;
+    color: #FFA844;
+}
+
+.bg-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "the-seasons", serif;
+    font-size: 60px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #BF0413;
+    color: #FFA844;
+    padding: 10px 30px;
+    border: 1px solid #BF0413;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #FFA844;
+    color: #BF0413;
+    border: 1px solid #FFA844;
+}
+
+/* Our Specialties */
+
+h2 {
+    font-family: "the-seasons", serif;
+    color: #FFA844;
+    font-size: 26px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h3 {
+    color: #FFA844;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    color: #FFA844;
+    font-size: 16px;
+    text-align: center;
+}
+
+.meal-detail {
+    display: block;
+    max-width: 165px;
+    flex-basis: 25%;
+}
+
+.flex-ctn {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.specialties {
+    padding: 20px 0;
+}
+
+/* Explore */
+
+.menu-ctn {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 40px;
+}
+
+/* Reservation */
+
+.padding {
+    padding-bottom: 40px;
+}
+
+.rsvt {
+    color: #FFA844;
+    list-style-type: disc;
+}
+
+.flex-ctn-rs {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.text-align p {
+    text-align: left;
+}
+
+.align-h2 {
+    text-align: left;
+}
+
+.btn-rs {
+    display: inline-block;
+    background-color: #BF0413;
+    color: #FFA844;
+    padding: 8px 24px;
+    border: 1px solid #BF0413;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-rs:hover {
+    background-color: #FFA844;
+    color: #BF0413;
+    border: 1px solid #FFA844;
+}
+
+/* Online Order */
+
+.flex-ctn-oo {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    }
+
+.online {
+    color: #FFA844;
+    list-style-type: disc;
+    max-width: 300px;
+    padding-bottom: 20px;
+}
+
+/* Awards */
+
+.a1 {
+    display: block;
+    max-width: 500px;
+}
+
+.a1 h2 {
+    font-size: 40px;
+    text-align: left;
+}
+
+.a2 {
+    display: block;
+}
+
+.flex-ctn-aw {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+/* Footer Navigation */
+
+footer {
+    background-color: #BF0413;
+    padding: 20px 0;
+    margin: 0;
+}
+
+footer p {
+    color: #FFA844;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFA844;
+    padding: 0;
+    font-size: 16px;
+}
+
+h4 {
+    font-family: "avenir", sans-serif;
+    font-size: 16px;
+    color: #FFA844;
+    padding: 0;
+}
+
+.btn-news {
+    display: inline-block;
+    background-color: #FEBE91;
+    color: #BF0413;
+    padding: 10px 16px;
+    border: 1px solid #FEBE91;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-news:hover {
+    background-color: black;
+    color: #FEBE91;
+    border: 1px solid black;
+}
+
+.ft-container {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.ft-nav {
+    display: inline-block;
+    padding: 40px;
+}
+
+.ft-p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Mobile Responsive Navigation */
+
+.mb-btn {
+    background-color: black;
+    border: none;
+    display: none;
+}
+
+.mb-btn:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .symbol {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .logo {
+        display: none;
+    }
+    .links {
+        display: none;
+    }
+    .mb-btn {
+        display: flex;
+        justify-content: flex-end;
+    }
+    header {
+        flex-basis: 100%;
+        justify-content: space-between;
+    }
+    .bg-image {
+        min-height: 400px;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    .btn {
+        padding: 8px 20px;
+        border-radius: 20px;
+        font-size: 16px;
+    }
+    .btn-rs {
+        padding: 6px 18px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+    .bg-container {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .flex-ctn {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .flex-ctn-rs {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        gap: 0;
+    }
+    .flex-ctn-oo {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .flex-ctn-aw {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .menu-ctn {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .ft-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0;
+        padding-left: 20px;
+    }
+    .ft-nav {
+        padding: 10px;
+        flex-basis: 100%;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .a1 {
+        padding: 10px 20px;
+    }
+    .a1 h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .align-h2 {
+        text-align: center;
+    }
+    li a {
+        font-size: 12px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    .ft-nav p {
+        text-align: left;
+    }
+    .meal-detail {
+        max-width: 200px;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .btn-center {
+        text-align: center;
+    }
+}
