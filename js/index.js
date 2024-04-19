@@ -20,7 +20,6 @@ gsap.from('.meal-detail',{
     ease: "power4.out",
     scrollTrigger: {
         trigger:'.flex-ctn',
-        markers: true,
     }
 });
 
@@ -32,7 +31,6 @@ gsap.from('.explore',{
     ease: "power4.out",
     scrollTrigger: {
         trigger:'.menu-ctn',
-        markers: true,
     }
 });
 
@@ -44,7 +42,6 @@ gsap.from('.text-align',{
     stagger: .15,
     scrollTrigger: {
         trigger:'.text-align',
-        markers: true,
     }
 });
 
@@ -55,7 +52,6 @@ gsap.from('.img1',{
     ease: "power3.inOut",
     scrollTrigger: {
         trigger:'.img1',
-        markers: true,
     }
 });
 
@@ -66,7 +62,6 @@ gsap.from('.img2',{
     ease: "power3.inOut",
     scrollTrigger: {
         trigger:'.img2',
-        markers: true,
     }
 });
 
@@ -78,7 +73,6 @@ gsap.from('.a1',{
     ease: "power2.inOut",
     scrollTrigger: {
         trigger:'.a1',
-        markers: true,
     }
 });
 
@@ -90,6 +84,5 @@ gsap.from('.a2',{
     ease: "power2.inOut",
     scrollTrigger: {
         trigger:'.a2',
-        markers: true,
     }
 });
